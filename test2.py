@@ -1,5 +1,4 @@
 from datetime import datetime
-
 from kafka import KafkaProducer
 import json
 import time
