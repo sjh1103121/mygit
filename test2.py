@@ -3,9 +3,6 @@ from kafka import KafkaProducer
 import json
 import time
 import random
-
-
-
 # Kafka 配置
 bootstrap_servers = ['172.18.23.101:21005', '172.18.23.102:21005', '172.18.23.103:21005']
 topic = 'test_topic'
